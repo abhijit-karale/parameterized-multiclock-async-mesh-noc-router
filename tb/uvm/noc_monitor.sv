@@ -11,12 +11,6 @@
 `ifndef NOC_MONITOR_SV
 `define NOC_MONITOR_SV
 
-import uvm_pkg::*;
-`include "uvm_macros.sv"
-`include "noc_packet_item.sv"
-`include "noc_flit_item.sv"
-`include "noc_if.sv"
-import noc_pkg::*;
 
 class noc_monitor extends uvm_monitor;
   `uvm_component_utils(noc_monitor)
