@@ -9,9 +9,7 @@
 `ifndef NOC_SEQUENCER_SV
 `define NOC_SEQUENCER_SV
 
-import uvm_pkg::*;
-`include "uvm_macros.sv"
-`include "noc_packet_item.sv"
+
 
 class noc_sequencer extends uvm_sequencer #(noc_packet_item);
   `uvm_component_utils(noc_sequencer)

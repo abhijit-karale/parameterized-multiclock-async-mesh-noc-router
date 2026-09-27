@@ -10,9 +10,6 @@
 `ifndef NOC_FLIT_ITEM_SV
 `define NOC_FLIT_ITEM_SV
 
-import uvm_pkg::*;
-`include "uvm_macros.sv"
-import noc_pkg::*;
 
 class noc_flit_item extends uvm_sequence_item;
 

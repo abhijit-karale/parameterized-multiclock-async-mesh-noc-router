@@ -11,12 +11,6 @@
 `ifndef NOC_DRIVER_SV
 `define NOC_DRIVER_SV
 
-import uvm_pkg::*;
-`include "uvm_macros.sv"
-`include "noc_packet_item.sv"
-`include "noc_flit_item.sv"
-`include "noc_if.sv"
-import noc_pkg::*;
 
 class noc_driver extends uvm_driver #(noc_packet_item);
   `uvm_component_utils(noc_driver)
