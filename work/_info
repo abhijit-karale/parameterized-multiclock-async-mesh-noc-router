@@ -10,10 +10,10 @@ cModel Technology
 Z0 dC:/Users/abhij/Downloads/SOC/Parameterized Multi Clock Asynchronous Mesh NoC Router
 vasync_fifo
 Z1 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-Z2 !s110 1790475537
+Z2 !s110 1790476037
 !i10b 1
 !s100 5VG12N[M@1<WAH2aL6g?E3
-IShK18Y?1_k_@UgkYeU8cd0
+IJIZ9N4D0L<3K;[UZUelOd2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 async_fifo_sv_unit
 S1
@@ -26,19 +26,20 @@ Z5 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z6 !s108 1790475537.000000
-Z7 !s107 rtl/noc_router_top.sv|rtl/vc_allocator.sv|rtl/credit_manager.sv|rtl/crossbar_5x5.sv|rtl/round_robin_arbiter.sv|rtl/xy_router.sv|rtl/async_vc_fifo.sv|rtl/async_fifo.sv|rtl/cdc_pulse_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_reset_sync.sv|rtl/noc_pkg.sv|
-Z8 !s90 -sv|-work|work|rtl/noc_pkg.sv|rtl/cdc_reset_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_pulse_sync.sv|rtl/async_fifo.sv|rtl/async_vc_fifo.sv|rtl/xy_router.sv|rtl/round_robin_arbiter.sv|rtl/crossbar_5x5.sv|rtl/credit_manager.sv|rtl/vc_allocator.sv|rtl/noc_router_top.sv|
+Z6 !s108 1790476037.000000
+!s107 tb/uvm/noc_packet_item.sv|tb/uvm/noc_flit_item.sv|tb/uvm/tb_top.sv|tb/uvm/noc_uvm_pkg.sv|tb/uvm/noc_if.sv|tb/formal/formal_properties.sv|rtl/noc_router_top.sv|rtl/vc_allocator.sv|rtl/credit_manager.sv|rtl/crossbar_5x5.sv|rtl/round_robin_arbiter.sv|rtl/xy_router.sv|rtl/async_vc_fifo.sv|rtl/async_fifo.sv|rtl/cdc_pulse_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_reset_sync.sv|rtl/noc_pkg.sv|
+Z7 !s90 -sv|-work|work|+incdir+rtl|+incdir+tb/formal|+incdir+tb/uvm|rtl/noc_pkg.sv|rtl/cdc_reset_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_pulse_sync.sv|rtl/async_fifo.sv|rtl/async_vc_fifo.sv|rtl/xy_router.sv|rtl/round_robin_arbiter.sv|rtl/crossbar_5x5.sv|rtl/credit_manager.sv|rtl/vc_allocator.sv|rtl/noc_router_top.sv|tb/formal/formal_properties.sv|tb/uvm/noc_if.sv|tb/uvm/noc_uvm_pkg.sv|tb/uvm/tb_top.sv|
 !i113 0
-Z9 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 -sv -work work +incdir+rtl +incdir+tb/formal +incdir+tb/uvm -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z10 tCvgOpt 0
 vasync_vc_fifo
 R1
-Z11 DXx4 work 7 noc_pkg 0 22 ?JSidicYGzS8QnRnLSDb30
+Z11 DXx4 work 7 noc_pkg 0 22 R9J2OcCVCZci1h2d]ze:G2
 R2
 !i10b 1
 !s100 6Nm`Pa><;kKOG__8?2chd2
-IBE<Llm6mR=E4G]RYSm2ba0
+IElZYFZB]8k8CLnNl6L;KD3
 R3
 !s105 async_vc_fifo_sv_unit
 S1
@@ -52,9 +53,10 @@ r1
 !s85 0
 31
 R6
+Z13 !s107 tb/uvm/noc_packet_item.sv|tb/uvm/noc_flit_item.sv|tb/uvm/tb_top.sv|tb/uvm/noc_uvm_pkg.sv|tb/uvm/noc_if.sv|tb/formal/formal_properties.sv|rtl/noc_router_top.sv|rtl/vc_allocator.sv|rtl/credit_manager.sv|rtl/crossbar_5x5.sv|rtl/round_robin_arbiter.sv|rtl/xy_router.sv|rtl/async_vc_fifo.sv|rtl/async_fifo.sv|rtl/cdc_pulse_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_reset_sync.sv|rtl/noc_pkg.sv|
 R7
-R8
 !i113 0
+R8
 R9
 R10
 vcdc_2ff_sync
@@ -62,7 +64,7 @@ R1
 R2
 !i10b 1
 !s100 LZK^GKQDW?@5cReMX`[Z33
-I6ZT[fU5S9CZ^0Lc9iQcMA2
+IkAffYm`ZUo:cKfM5;MR>M3
 R3
 !s105 cdc_2ff_sync_sv_unit
 S1
@@ -70,15 +72,16 @@ R0
 w1790473646
 8rtl/cdc_2ff_sync.sv
 Frtl/cdc_2ff_sync.sv
-Z13 L0 13
+Z14 L0 13
 R5
 r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 vcdc_gray_sync
@@ -86,7 +89,7 @@ R1
 R2
 !i10b 1
 !s100 PYkP?J@]@]3Z8I4GE7fZU0
-IW[RHO]JDF;gfk>_ja_`Xh1
+Ik@lD6AMOIHTFH0]cMZEgX2
 R3
 !s105 cdc_gray_sync_sv_unit
 S1
@@ -100,9 +103,10 @@ r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 vcdc_pulse_sync
@@ -110,7 +114,7 @@ R1
 R2
 !i10b 1
 !s100 laD?ZTM4g=oD=^7D[HA3G0
-I[O>9dg2S6UHA3VT2cKbCG0
+IN^iMG`MlXT:ULXS90<Me70
 R3
 !s105 cdc_pulse_sync_sv_unit
 S1
@@ -124,9 +128,10 @@ r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 vcdc_reset_sync
@@ -134,7 +139,7 @@ R1
 R2
 !i10b 1
 !s100 ENm]_@_hH>ZECQlQnUY^o0
-IRh:8XU6H@;oQ6jjzHaeJ72
+I2@JDYi[d:n[fKLPmBGN?c3
 R3
 !s105 cdc_reset_sync_sv_unit
 S1
@@ -142,15 +147,16 @@ R0
 w1790473641
 8rtl/cdc_reset_sync.sv
 Frtl/cdc_reset_sync.sv
-R13
+R14
 R5
 r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 vcredit_manager
@@ -159,7 +165,7 @@ R11
 R2
 !i10b 1
 !s100 EUN=_=@E^Hk_=N0Y>T6U<1
-IPgmcfhf4omf6P5ZP[@;2>0
+IhcCYC0F<foKZLH=_Ec7LS2
 R3
 !s105 credit_manager_sv_unit
 S1
@@ -173,9 +179,10 @@ r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 vcrossbar_5x5
@@ -184,7 +191,7 @@ R11
 R2
 !i10b 1
 !s100 VK`=R^=BhITUGaKLeG^Ok1
-IS@H`h12D:2X<@6=i05IH31
+I5ZjP;S4kT[CRY^FYXVR9n1
 R3
 !s105 crossbar_5x5_sv_unit
 S1
@@ -198,9 +205,113 @@ r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
+R9
+R10
+vformal_properties
+R1
+R11
+DXx4 work 25 formal_properties_sv_unit 0 22 zh8m5k5C4h55o3VRn[Bod2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 W4WoEzlm9bmTH3LeQ`FTE1
+IR;O?0_oXIb6B;98]gaLz81
+!s105 formal_properties_sv_unit
+S1
+R0
+Z15 w1790475582
+Z16 8tb/formal/formal_properties.sv
+Z17 Ftb/formal/formal_properties.sv
+Z18 L0 17
+R5
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+Xformal_properties_sv_unit
+R1
+R11
+Vzh8m5k5C4h55o3VRn[Bod2
+r1
+!s85 0
+!i10b 1
+!s100 gKXWczSYe8Yocm@5WBh9L2
+Izh8m5k5C4h55o3VRn[Bod2
+!i103 1
+S1
+R0
+R15
+R16
+R17
+R12
+R5
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+Ynoc_if
+R1
+R11
+DXx4 work 14 noc_if_sv_unit 0 22 P5bLLJDXK>@CCZcjelbE_3
+R3
+r1
+!s85 0
+!i10b 1
+!s100 6HJUhYdWG]7hM24J5C=3;0
+IXoigjI^NPfSNkl6YCGWSZ1
+!s105 noc_if_sv_unit
+S1
+R0
+Z19 w1790475624
+Z20 8tb/uvm/noc_if.sv
+Z21 Ftb/uvm/noc_if.sv
+R18
+R5
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+Xnoc_if_sv_unit
+R1
+R11
+VP5bLLJDXK>@CCZcjelbE_3
+r1
+!s85 0
+!i10b 1
+!s100 H0V1Ea8?9YhcKj:`GK79g0
+IP5bLLJDXK>@CCZcjelbE_3
+!i103 1
+S1
+R0
+R19
+R20
+R21
+Z22 Frtl/noc_pkg.sv
+R12
+R5
+31
+R6
+R13
+R7
+!i113 0
+R8
 R9
 R10
 Xnoc_pkg
@@ -208,71 +319,74 @@ R1
 R2
 !i10b 1
 !s100 nN9?L[]ImATj:O[bazzUe0
-I?JSidicYGzS8QnRnLSDb30
-V?JSidicYGzS8QnRnLSDb30
+IR9J2OcCVCZci1h2d]ze:G2
+VR9J2OcCVCZci1h2d]ze:G2
 S1
 R0
 w1790473629
 8rtl/noc_pkg.sv
-Frtl/noc_pkg.sv
-R13
+R22
+R14
 R5
 r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 vnoc_router_top
 R1
 R11
-DXx4 work 22 noc_router_top_sv_unit 0 22 :=gM]zFSX=b6J3O^36ciT1
+DXx4 work 22 noc_router_top_sv_unit 0 22 ^Fblz^EEO0`CZZAcVhBK30
 R3
 r1
 !s85 0
 !i10b 1
 !s100 ;hz=L_i2XK]V]O=B1oc6_1
-I2B7SgIf<?C:[a3hT2QE_E3
+IkeC]YOil?CUB_Qg;n>RfE3
 !s105 noc_router_top_sv_unit
 S1
 R0
-Z14 w1790473877
-Z15 8rtl/noc_router_top.sv
-Z16 Frtl/noc_router_top.sv
+Z23 w1790473877
+Z24 8rtl/noc_router_top.sv
+Z25 Frtl/noc_router_top.sv
 L0 16
 R5
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 Xnoc_router_top_sv_unit
 R1
 R11
-V:=gM]zFSX=b6J3O^36ciT1
+V^Fblz^EEO0`CZZAcVhBK30
 r1
 !s85 0
 !i10b 1
 !s100 ?nJ2n^YYGzKSHVG`eP8fE0
-I:=gM]zFSX=b6J3O^36ciT1
+I^Fblz^EEO0`CZZAcVhBK30
 !i103 1
 S1
 R0
-R14
-R15
-R16
+R23
+R24
+R25
 R4
 R5
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 Topt_router
@@ -283,12 +397,13 @@ o
 R10
 nopt_router
 OL;O;10.7c;67
+R0
 vround_robin_arbiter
 R1
 R2
 !i10b 1
 !s100 moYRzDgKG8HK[lI12V=V<2
-I>1]CE49lc8C_=n^FaHH5<3
+I43eHM2>HggjKYaTUW4nQo1
 R3
 !s105 round_robin_arbiter_sv_unit
 S1
@@ -302,9 +417,10 @@ r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 vvc_allocator
@@ -313,7 +429,7 @@ R11
 R2
 !i10b 1
 !s100 XWa5]9TZGOHhaGW>^Waoz1
-IR7b4DG:O6I8`UfUJioQT40
+I^U2V?f_oKUQ65::S2^8VQ3
 R3
 !s105 vc_allocator_sv_unit
 S1
@@ -327,9 +443,10 @@ r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10
 vxy_router
@@ -338,7 +455,7 @@ R11
 R2
 !i10b 1
 !s100 kDMz`GKP63X00jjK`aY>G0
-IXQhe1?hNdCh=gB5>n8Q>H1
+I@<UUe=@T8XXQ3VOVee0[33
 R3
 !s105 xy_router_sv_unit
 S1
@@ -352,8 +469,9 @@ r1
 !s85 0
 31
 R6
+R13
 R7
-R8
 !i113 0
+R8
 R9
 R10

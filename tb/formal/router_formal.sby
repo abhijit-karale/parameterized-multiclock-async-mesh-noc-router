@@ -1,0 +1,39 @@
+[options]
+mode bmc
+depth 30
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal -sv noc_pkg.sv
+read -formal -sv cdc_reset_sync.sv
+read -formal -sv cdc_2ff_sync.sv
+read -formal -sv cdc_gray_sync.sv
+read -formal -sv cdc_pulse_sync.sv
+read -formal -sv async_fifo.sv
+read -formal -sv async_vc_fifo.sv
+read -formal -sv xy_router.sv
+read -formal -sv round_robin_arbiter.sv
+read -formal -sv crossbar_5x5.sv
+read -formal -sv credit_manager.sv
+read -formal -sv vc_allocator.sv
+read -formal -sv noc_router_top.sv
+read -formal -sv formal_properties.sv
+prep -top noc_router_top
+
+[files]
+../../rtl/noc_pkg.sv
+../../rtl/cdc_reset_sync.sv
+../../rtl/cdc_2ff_sync.sv
+../../rtl/cdc_gray_sync.sv
+../../rtl/cdc_pulse_sync.sv
+../../rtl/async_fifo.sv
+../../rtl/async_vc_fifo.sv
+../../rtl/xy_router.sv
+../../rtl/round_robin_arbiter.sv
+../../rtl/crossbar_5x5.sv
+../../rtl/credit_manager.sv
+../../rtl/vc_allocator.sv
+../../rtl/noc_router_top.sv
+formal_properties.sv
