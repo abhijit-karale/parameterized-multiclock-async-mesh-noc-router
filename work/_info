@@ -27,14 +27,14 @@ r1
 !s85 0
 31
 Z6 !s108 1790475537.000000
-!s107 rtl/noc_router_top.sv|rtl/vc_allocator.sv|rtl/credit_manager.sv|rtl/crossbar_5x5.sv|rtl/round_robin_arbiter.sv|rtl/xy_router.sv|rtl/async_vc_fifo.sv|rtl/async_fifo.sv|rtl/cdc_pulse_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_reset_sync.sv|rtl/noc_pkg.sv|
-Z7 !s90 -sv|-work|work|rtl/noc_pkg.sv|rtl/cdc_reset_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_pulse_sync.sv|rtl/async_fifo.sv|rtl/async_vc_fifo.sv|rtl/xy_router.sv|rtl/round_robin_arbiter.sv|rtl/crossbar_5x5.sv|rtl/credit_manager.sv|rtl/vc_allocator.sv|rtl/noc_router_top.sv|
+Z7 !s107 rtl/noc_router_top.sv|rtl/vc_allocator.sv|rtl/credit_manager.sv|rtl/crossbar_5x5.sv|rtl/round_robin_arbiter.sv|rtl/xy_router.sv|rtl/async_vc_fifo.sv|rtl/async_fifo.sv|rtl/cdc_pulse_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_reset_sync.sv|rtl/noc_pkg.sv|
+Z8 !s90 -sv|-work|work|rtl/noc_pkg.sv|rtl/cdc_reset_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_pulse_sync.sv|rtl/async_fifo.sv|rtl/async_vc_fifo.sv|rtl/xy_router.sv|rtl/round_robin_arbiter.sv|rtl/crossbar_5x5.sv|rtl/credit_manager.sv|rtl/vc_allocator.sv|rtl/noc_router_top.sv|
 !i113 0
-Z8 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z9 tCvgOpt 0
+Z9 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
 vasync_vc_fifo
 R1
-Z10 DXx4 work 7 noc_pkg 0 22 ?JSidicYGzS8QnRnLSDb30
+Z11 DXx4 work 7 noc_pkg 0 22 ?JSidicYGzS8QnRnLSDb30
 R2
 !i10b 1
 !s100 6Nm`Pa><;kKOG__8?2chd2
@@ -46,17 +46,17 @@ R0
 w1790473888
 8rtl/async_vc_fifo.sv
 Frtl/async_vc_fifo.sv
-Z11 L0 15
+Z12 L0 15
 R5
 r1
 !s85 0
 31
 R6
-Z12 !s107 rtl/noc_router_top.sv|rtl/vc_allocator.sv|rtl/credit_manager.sv|rtl/crossbar_5x5.sv|rtl/round_robin_arbiter.sv|rtl/xy_router.sv|rtl/async_vc_fifo.sv|rtl/async_fifo.sv|rtl/cdc_pulse_sync.sv|rtl/cdc_gray_sync.sv|rtl/cdc_2ff_sync.sv|rtl/cdc_reset_sync.sv|rtl/noc_pkg.sv|
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 vcdc_2ff_sync
 R1
 R2
@@ -76,11 +76,11 @@ r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 vcdc_gray_sync
 R1
 R2
@@ -100,11 +100,11 @@ r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 vcdc_pulse_sync
 R1
 R2
@@ -124,11 +124,11 @@ r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 vcdc_reset_sync
 R1
 R2
@@ -148,14 +148,14 @@ r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 vcredit_manager
 R1
-R10
+R11
 R2
 !i10b 1
 !s100 EUN=_=@E^Hk_=N0Y>T6U<1
@@ -167,20 +167,20 @@ R0
 w1790473925
 8rtl/credit_manager.sv
 Frtl/credit_manager.sv
-R11
+R12
 R5
 r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 vcrossbar_5x5
 R1
-R10
+R11
 R2
 !i10b 1
 !s100 VK`=R^=BhITUGaKLeG^Ok1
@@ -192,17 +192,17 @@ R0
 w1790473903
 8rtl/crossbar_5x5.sv
 Frtl/crossbar_5x5.sv
-R11
+R12
 R5
 r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 Xnoc_pkg
 R1
 R2
@@ -221,14 +221,14 @@ r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 vnoc_router_top
 R1
-R10
+R11
 DXx4 work 22 noc_router_top_sv_unit 0 22 :=gM]zFSX=b6J3O^36ciT1
 R3
 r1
@@ -246,14 +246,14 @@ L0 16
 R5
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 Xnoc_router_top_sv_unit
 R1
-R10
+R11
 V:=gM]zFSX=b6J3O^36ciT1
 r1
 !s85 0
@@ -270,11 +270,19 @@ R4
 R5
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
+Topt_router
+!s110 1790475565
+VPaRhk2K<Xd[7R3UDP8Tn60
+04 14 4 work noc_router_top fast 0
+o
+R10
+nopt_router
+OL;O;10.7c;67
 vround_robin_arbiter
 R1
 R2
@@ -294,14 +302,14 @@ r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 vvc_allocator
 R1
-R10
+R11
 R2
 !i10b 1
 !s100 XWa5]9TZGOHhaGW>^Waoz1
@@ -313,20 +321,20 @@ R0
 w1790473935
 8rtl/vc_allocator.sv
 Frtl/vc_allocator.sv
-R11
+R12
 R5
 r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
 vxy_router
 R1
-R10
+R11
 R2
 !i10b 1
 !s100 kDMz`GKP63X00jjK`aY>G0
@@ -338,14 +346,14 @@ R0
 w1790473894
 8rtl/xy_router.sv
 Frtl/xy_router.sv
-R11
+R12
 R5
 r1
 !s85 0
 31
 R6
-R12
 R7
-!i113 0
 R8
+!i113 0
 R9
+R10
