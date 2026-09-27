@@ -1,0 +1,23 @@
+# Role & Operational Task
+Act as a Principal Network-on-Chip (NoC) Architect and CDC Verification Specialist. Generate a complete, production-grade, standalone codebase and verification suite for the project below with zero placeholders or pseudocode.
+
+## 1. Candidate Context
+- Candidate: Abhijit Karale (Expertise in Gray-code asynchronous FIFOs, Clock Domain Crossing analysis, and multi-channel hardware architectures).
+- Target Tech Node & Clock: SkyWater 130nm (Independent Core/Mesh clocks @ 150 MHz and 250 MHz).
+
+## 2. Project Directive: Parameterized Multi-Clock Asynchronous Mesh NoC Router
+- Focus: 2D mesh packet routing, credit-based flow control, safe asynchronous CDC handshakes.
+- Key Specifications:
+  * 5-port router architecture: North, South, East, West, and Local PE injection.
+  * Dimension-order XY deterministic routing engine with wormhole packet switching.
+  * Asynchronous Dual-Clock Virtual Channel FIFOs across each direction with Gray-code pointers and 2-FF synchronizers.
+  * Credit-based backpressure flow control preventing packet buffer drop.
+
+## 3. Mandatory Deliverables
+1. Microarchitectural Spec: 5x5 Crossbar switch schematic (ASCII), XY routing logic, virtual channel allocation FSM, and CDC boundaries.
+2. Synthesizable RTL (`rtl/`): Parameterized router top, dual-clock async FIFO with Gray coding, arbiter crossbar, and XY route computation.
+3. Formal Verification (`tb/formal/`): JasperGold CDC verification directives and SVA checking deadlock freedom and credit conservation invariants.
+4. Layered UVM 1.2 Suite (`tb/uvm/`): Multi-agent testbench injecting packets simultaneously from all ports with end-to-end packet latency tracking.
+5. Cycle-Accurate Waveform Guide: ASCII trace showing head/body/tail flit routing and credit return over async clock domains.
+6. Synthesis Setup (`syn/`): Multi-clock SDC constraints defining clock relationships, max delays over CDC paths, and Yosys script.
+7. Repo Blueprint: File layout, `Makefile` (`sim_uvm`, `sim_formal`, `synth`), and production `README.md`.
